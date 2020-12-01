@@ -16,7 +16,8 @@ interface Repository{
             @Query("hash")p5: String,
             @Query("titleStartsWith")p6: String,
             @Query("orderBy")p7: String,
-            @Query("noVariants")p8: Boolean
+            @Query("noVariants")p8: Boolean,
+            @Query("dateRange")p9: String
     ): Res
 
 }

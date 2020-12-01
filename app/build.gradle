@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
 
 }
 
@@ -60,5 +61,8 @@ dependencies {
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9'
     // picasso
     implementation 'com.squareup.picasso:picasso:2.71828'
+    // serialization
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.0.1")
+    // loading
 
 }

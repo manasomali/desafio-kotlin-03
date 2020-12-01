@@ -15,7 +15,7 @@ class HqsViewModel(repository: Repository) : ViewModel() {
     }
     fun getHqs() {
         viewModelScope.launch {
-            listQhsFromApi.value = repository.getResults(1,20,"1","6eb7e8896ec5850c52515a8a23ee97f0","40a3aa568bb269dfad85ae0c4a297181","spider","-focDate",true)
+            listQhsFromApi.value = repository.getResults(1,50,"1","6eb7e8896ec5850c52515a8a23ee97f0","40a3aa568bb269dfad85ae0c4a297181","spider-man","focDate",true,"2019-03-01,2020-01-01")
             println(listQhsFromApi.value.toString())
         }
     }
