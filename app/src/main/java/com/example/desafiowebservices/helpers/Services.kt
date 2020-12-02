@@ -1,5 +1,6 @@
-package com.example.desafiowebservices
+package com.example.desafiowebservices.helpers
 
+import com.example.desafiowebservices.Res
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET

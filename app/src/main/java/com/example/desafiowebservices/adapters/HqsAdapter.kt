@@ -1,7 +1,6 @@
-package com.example.desafiowebservices
+package com.example.desafiowebservices.adapters
 
 import android.annotation.SuppressLint
-import android.icu.number.NumberFormatter.with
 import android.net.Uri
 import android.view.LayoutInflater
 import android.view.View
@@ -9,6 +8,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.desafiowebservices.R
+import com.example.desafiowebservices.Res
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.hq_item.view.*
 

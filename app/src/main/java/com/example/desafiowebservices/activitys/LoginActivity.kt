@@ -1,8 +1,9 @@
-package com.example.desafiowebservices
+package com.example.desafiowebservices.activitys
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.desafiowebservices.R
 import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {

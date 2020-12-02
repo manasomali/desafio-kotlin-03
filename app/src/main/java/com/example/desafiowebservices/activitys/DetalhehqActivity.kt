@@ -1,15 +1,15 @@
-package com.example.desafiowebservices
+package com.example.desafiowebservices.activitys
 
 import android.annotation.SuppressLint
-import android.content.Intent
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
-import android.text.format.DateFormat
 import android.view.View.INVISIBLE
 import android.view.View.VISIBLE
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
+import com.example.desafiowebservices.R
+import com.example.desafiowebservices.Results
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_detalhehq.*
 import java.text.SimpleDateFormat

@@ -1,18 +1,17 @@
-package com.example.desafiowebservices
+package com.example.desafiowebservices.activitys
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import android.content.res.ColorStateList
-import android.graphics.Color
-import android.graphics.drawable.Drawable
 import android.os.Bundle
-import android.view.View
 import android.view.View.INVISIBLE
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import androidx.recyclerview.widget.GridLayoutManager
+import com.example.desafiowebservices.viewmodels.HqsViewModel
+import com.example.desafiowebservices.R
+import com.example.desafiowebservices.adapters.HqsAdapter
+import com.example.desafiowebservices.helpers.repository
 import kotlinx.android.synthetic.main.activity_hqs.*
 
 
